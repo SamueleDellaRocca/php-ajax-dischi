@@ -81,5 +81,5 @@ $arrayAlbums = [
     ],
 ];
 
-// header('Content-Type: application/json');
-// echo json_encode($arrayAlbums);
+header('Content-Type: application/json');
+echo json_encode($arrayAlbums);
