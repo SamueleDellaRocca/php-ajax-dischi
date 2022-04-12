@@ -23,8 +23,9 @@
                     </div>
                     <div class="col-2">
                         <label class="text-white p-1" for="cars">Generi Musicali:</label>
-                        <select class="p-1 rounded" name="genere" id="genere">
-                            <option value="general">General</option>
+
+                        <select v-model="genereSelezionato" class="p-1 rounded" name="genere" id="genere">
+                            <option default value="general">General</option>
                             <option value="rock">Rock</option>
                             <option value="pop">Pop</option>
                             <option value="metal">Metal</option>
@@ -40,7 +41,7 @@
             <div class="container-fluid sfondo-main">
                 <div class="container">
                     <div class="row gap-3 justify-content-center padding">
-                        <div v-for="albumData in arrayAlbums"
+                        <div v-for="albumData in funzioneCambioGenere"
                             class="col-5 col-sm-4 col-md-3 col-lg-2 text-center p_card sfondo_color">
                             <div class="immagine">
                                 <img class="img" :src="albumData.poster" :alt="albumData.title" />
