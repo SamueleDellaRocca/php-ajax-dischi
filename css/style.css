@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.sfondo {
+    background-color: hsl(210deg 21% 23%);
+    height: 100px;
+}
+
+.altezza {
+    height: 100%;
+}
+
+.sfondo-main {
+    background-color: hsl(209deg 33% 17%);
+    min-height: calc(100vh - 100px);
+}
+
+.padding {
+    padding: 3rem 0px;
+}
+
+.caricamento {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+
+}
+
+h1 {
+    margin: auto;
+    font-size: 3rem;
+    color: white;
+}
+
+.img {
+    width: 100%;
+}
+
+.grigio {
+    color: gray;
+}
+
+.sfondo_color {
+    background-color: hsl(210deg 21% 23%);
+}
+
+.p_card {
+    padding: 2rem 1rem;
+}
